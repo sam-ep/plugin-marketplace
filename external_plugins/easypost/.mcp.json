@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "easypost": {
+      "type": "http",
+      "url": "https://app-api.easypost.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${EASYPOST_API_KEY}"
+      },
+      "note": "Official EasyPost hosted MCP server. Export EASYPOST_API_KEY with a production EasyPost API key (dashboard: https://app.easypost.com/account/api-keys) before launching Grok; the plugin sends it as a Bearer token on every request. All tools are read-only. See the plugin README for the tool catalog."
+    }
+  }
+}
